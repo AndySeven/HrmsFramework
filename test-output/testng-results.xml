@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Define Report Suite" duration-ms="46504" started-at="2020-06-09T13:20:13 EDT" finished-at="2020-06-09T13:20:59 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="DefineReportsTest.defineReports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="defineReports" class="com.hrms.testcases.DefineReportsTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Define Report Test" duration-ms="46504" started-at="2020-06-09T13:20:13 EDT" finished-at="2020-06-09T13:20:59 EDT">
+      <class name="com.hrms.testcases.DefineReportsTest">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="generateReport" is-config="true" duration-ms="85" started-at="2020-06-09T13:20:13 EDT" finished-at="2020-06-09T13:20:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="setUpBrowser" is-config="true" duration-ms="3129" started-at="2020-06-09T13:20:13 EDT" finished-at="2020-06-09T13:20:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="defineReports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="defineReports" duration-ms="11825" started-at="2020-06-09T13:20:17 EDT" data-provider="getReportData" finished-at="2020-06-09T13:20:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contacts Report]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay Grade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[noname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Current and Past Employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personal ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Employee Id]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Employee First Name]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Employee Last Name]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Contact Details ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-06-09T13:20:29 EDT" finished-at="2020-06-09T13:20:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="setUpBrowser" is-config="true" duration-ms="2622" started-at="2020-06-09T13:20:29 EDT" finished-at="2020-06-09T13:20:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="defineReports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="defineReports" duration-ms="11142" started-at="2020-06-09T13:20:32 EDT" data-provider="getReportData" finished-at="2020-06-09T13:20:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skills Report]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay Grade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[noname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Current and Past Employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Skills ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Skills]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Years of Experience]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Comments]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Salary ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-06-09T13:20:43 EDT" finished-at="2020-06-09T13:20:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="setUpBrowser" is-config="true" duration-ms="2623" started-at="2020-06-09T13:20:44 EDT" finished-at="2020-06-09T13:20:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="defineReports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="defineReports" duration-ms="12524" started-at="2020-06-09T13:20:46 EDT" data-provider="getReportData" finished-at="2020-06-09T13:20:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selection Report]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Employee Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jason Snikerson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Current and Past Employees]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personal ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Employee Id]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Employee First Name]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Employee Last Name]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Contact Details ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-06-09T13:20:59 EDT" finished-at="2020-06-09T13:20:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.DefineReportsTest@1877ab81]" name="writeReport" is-config="true" duration-ms="185" started-at="2020-06-09T13:20:59 EDT" finished-at="2020-06-09T13:20:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.hrms.testcases.DefineReportsTest -->
+    </test> <!-- Define Report Test -->
+  </suite> <!-- Define Report Suite -->
+</testng-results>
